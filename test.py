@@ -38,7 +38,7 @@ def predict():
         prediction = model.predict(img_array)
 
         # Assuming your classes are in the order mentioned in your question
-        classes = ['Convertible', 'Coupe', 'Hatchback', 'Pick-up', 'Sedan', "SUV", "VAN"]
+        classes = ['Convertible', 'Coupe', 'Hatchback', 'Pick-up', 'Sedan', "SUV", "Van"]
 
         # Get the index of the highest probability
         predicted_class_index = np.argmax(prediction[0])
